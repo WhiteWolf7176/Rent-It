@@ -52,9 +52,14 @@ const ListingSchema = new mongoose.Schema(
     },
     amenities: {
       type: Array,
-      default:[]
+      default:[],
+       required: false
     },
     listingPhotoPaths: [{ type: String }], // Store photo URLs
+    phone: { 
+      type: String,
+      required: true
+     },
     title: {
       type: String,
       required: true
@@ -71,6 +76,7 @@ const ListingSchema = new mongoose.Schema(
       type: String,
       required: true
     },
+
     price: {
       type: Number,
       required: true,

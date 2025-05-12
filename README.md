@@ -50,6 +50,26 @@ cd client
 npm start
 
 ```
+---
+
+## 📌 Roadmap
+ 
+ - Core Listing & Categories
+
+ - Secure Payment Integration
+
+ - Live Chat / Messaging
+
+ - Reviews & Ratings
+
+ - Deployment on Render/Netlify
+
+--- 
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Please fork the repo and submit a Pull Request.
 
 ---
 
